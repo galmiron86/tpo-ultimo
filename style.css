@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.5vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(187,16,175,0.7364746945898779) 52%, rgba(219,0,255,1) 100%);
+    color: white;
+    padding: 1vw 20px;
+}
+
+.logo {
+    font-size: 3vw;
+    text-decoration: none;
+    border-radius: 0% 10% 0% 10%;
+    width: 5vw;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-shadow: ;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    height: 5vh;
+    margin-top: auto;
+    padding-top: 1vh;
+
+}
+
+.pie-de-pagina{
+    text-align: center;
+    color: white;
+}
+
+.boton-enviar {
+    border-color: rgb(255, 0, 8);
+    font-size: 1.5vw;
+    border: solid;
+    opacity: 0px 0px 0px 3px;
+    
+
+}
+.contacto {
+    text-decoration: none;
+    
+}
