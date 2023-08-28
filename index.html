@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Tpo</title>
 </head>
 <body>
     <header>
-    <div><a href="index.html"  class="logo"><img src="/template/codoAcodo.png" alt="logo" class="logo"></a></div>
+    <div class="logo">
+        <a href="index.html"><img src="template/codoAcodo.png" alt="logo"></a>
+        <p>Inicio</p>
+    </div>
     <nav>
         <ul>
             <li><a href="template/acerca-de.html">Acerca de</a></li>
-            <li><a href="/template/clases-en-linea.html">Clases en linea</a></li>
+            <li><a href="template/clases-en-linea.html">Clases en linea</a></li>
             <li><a href="#section1">Contacto</a></li>
-            <li><a href="/template/ejercicios.html">Ejercicios</a></li>
-            <li><a href="/template/paquetes.html">Paquetes</a></li>
-            <li><a href="/template/reserva.html">Reserva tu clase</a></li>
-            <li><a href="/template/entrar.html">Entrar</a></li>
+            <li><a href="template/ejercicios.html">Ejercicios</a></li>
+            <li><a href="template/paquetes.html">Paquetes</a></li>
+            <li><a href="template/reserva.html">Reserva tu clase</a></li>
+            <li><a href="template/entrar.html">Entrar</a></li>
         </ul>
     </nav>
 </header>
@@ -43,22 +46,22 @@
     </section>
 
     <label for="nombre">Nombre:</label>
-    <input type="text" name="nombre" id="nombre" required>
+    <input type="text" name="nombre" id="nombre" required class="cuadro">
 
     <label for="apellido">Apellido</label>
-    <input type="text" name="apellido" id="apellido" required>
+    <input type="text" name="apellido" id="apellido" required class="cuadro">
     <br><br>
 
     <label for="telefono">telefono:</label>
-    <input type="tel" name="telefono" id="telefono" pattern="\d{10,}" required>
+    <input type="tel" name="telefono" id="telefono" pattern="\d{10,}" required class="cuadro">
     <br><br>
     
     <label for="email">Email:</label>
-    <input type="email" name="email" id="email" required>
+    <input type="email" name="email" id="email" required class="cuadro">
     <br><br>
 
     
-    Consulta<textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+    Consulta<textarea name="consulta" id="consulta" cols="30" rows="10" class="cuadro"></textarea>
     <br><br>
 
     <input type="submit" value="Enviar" class="boton-enviar">

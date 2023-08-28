@@ -1,6 +1,7 @@
 *{
-    margin: 0%;
-    padding: 0%; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     margin: 0;
@@ -17,7 +18,13 @@ header {
     align-items: center;
     background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(187,16,175,0.7364746945898779) 52%, rgba(219,0,255,1) 100%);
     color: white;
-    padding: 1vw 20px;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .logo {
@@ -26,16 +33,24 @@ header {
     border-radius: 0% 10% 0% 10%;
     width: 5vw;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+.logo p {
+    font-weight: bold;
+}
+
 
 nav ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-    box-shadow: ;
 }
-
+ 
 nav ul li {
     margin-right: 20px;
 }
@@ -47,6 +62,8 @@ nav ul li:last-child {
 nav a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    margin-left: 10px;
 }
 
 footer{
@@ -73,5 +90,15 @@ footer{
 }
 .contacto {
     text-decoration: none;
+    
+}
+
+.cuadro{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-width: 0.1vw;
+    border-color: rgb(0, 0, 0);
     
 }
