@@ -149,10 +149,33 @@ footer{
     height: 100%;
     margin-left: 1.5vw;
     margin-top: 5px;
-    
+}
+
+.Fondo-formulario {
+    background-image: url('template/img/13167.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.texto {
+    font-size: 10px;
+   
+    padding: 20px;
     
 }
 
-
-
+.box {
+    display: flex;
+    border: 1px;
+}
+.imagen-fondo {
+    background-image: url('template/img/comunicacion-linea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
 
