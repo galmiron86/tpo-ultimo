@@ -128,7 +128,9 @@ footer{
     margin-top: auto;
     padding-top: 1vh;
     padding-bottom: 7vh;
-    
+    left: 0%;
+    width: 100%;
+    bottom: 0;
 
 }
 
