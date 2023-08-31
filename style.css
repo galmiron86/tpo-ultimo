@@ -5,7 +5,7 @@
 }
 
 a { 
-    font-family: 'Roboto', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -23,7 +23,9 @@ header {
     align-items: center;
     background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(187,16,175,0.7364746945898779) 52%, rgba(219,0,255,1) 100%);
     color: white;
-    padding: 2vh;
+    padding: 14px;
+    height: 100%;
+    text-transform: uppercase;
 }
  
 .logo img {
@@ -43,9 +45,30 @@ header {
     justify-content: center;
     align-items: center;
     gap: 1px;
+    
 
     
 }
+ 
+/* animacion menu encabezado izquierdo */
+.ey {
+    transition: 300ms;
+}
+
+#logo1{
+    transition: 300ms;
+
+}
+
+#logo1:hover {
+    transform: scale(1.1);
+    
+}
+
+.ey:hover{ 
+    transform: scale(1.1);
+}
+
 
 .logo p {
     font-weight: bold;
@@ -70,20 +93,42 @@ header {
 
 nav {
     list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
     font-weight: bold;
+    font-size: 1vw;
+    text-decoration: none;
+    border-radius: 0% 10%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
     }
   
-
+/* animacion navegacion */
  
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     margin-left: 10px;
-    font-size: 1.3vw;
+    font-size: 1.4vw;
+    transition: 300ms;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+
+nav img {
+    width: 3vw;
+    height: 3vh;
+    display: inline-block;
+    padding-right: 1vw;
+    align-items: center;
+    
 }
 
 
@@ -151,6 +196,8 @@ footer{
     margin-top: 5px;
 }
 
+
+
 .Fondo-formulario {
     background-image: url('template/img/13167.jpg');
     background-size: cover;
@@ -179,3 +226,30 @@ footer{
     max-width: 100%;
 }
 
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+img {
+    scroll-timeline-name: --image;
+    scroll-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-duration: entry 25% cover 50%;
+    animation-fill-mode: both;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
