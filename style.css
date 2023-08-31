@@ -24,7 +24,7 @@ header {
     background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(187,16,175,0.7364746945898779) 52%, rgba(219,0,255,1) 100%);
     color: white;
     padding: 14px;
-    height: 100%;
+    min-height: 100%;
     text-transform: uppercase;
 }
  
@@ -68,6 +68,7 @@ header {
 
 .ey:hover{ 
     transform: scale(1.1);
+    color: pink;
 }
 /* fin de animacion */
 
@@ -120,6 +121,7 @@ nav a {
 
 nav a:hover {
     transform: scale(1.1);
+    color: pink;
 }
 
 
