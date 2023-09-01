@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 a { 
@@ -24,13 +25,13 @@ header {
     background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(187,16,175,0.7364746945898779) 52%, rgba(219,0,255,1) 100%);
     color: white;
     padding: 14px;
-    min-height: 100%;
+    height: 100%;
     text-transform: uppercase;
 }
  
 .logo img {
-    width: 50px;
-    height: 50px;
+    width: 5vw;
+    height: auto;
     border-radius: 50%;
     align-items: center;
     
@@ -127,7 +128,7 @@ nav a:hover {
 
 nav img {
     width: 3vw;
-    height: 3vh;
+    height: auto;
     display: inline-block;
     padding-right: 1vw;
     align-items: center;
@@ -137,9 +138,9 @@ nav img {
 
 
 .boton-enviar {
-    background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(187,16,175,0.7364746945898779) 52%, rgba(219,0,255,1) 100%);
+    background: none
     font-size: 1.5vw;
-    border: none;
+    border: solid;
     opacity: 0px 0px 0px 3px;
     border-radius: 5px;
     margin-left: 3vw;
@@ -202,7 +203,7 @@ footer{
 
 
 .Fondo-formulario {
-    background-image: url('template/img/13167.jpg');
+    background-image: url('template/img/textura-gris.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -220,6 +221,23 @@ footer{
     display: flex;
     border: 1px;
 }
+
+.caja1{
+    font-size: 6vw;
+}
+
+.caja2 {
+    font-size: 2.5vw;
+}
+
+.boton-reserva{
+    width: 15vw;
+    height: 5vh;
+    margin: 3vw;
+
+}
+
+
 .imagen-fondo {
     background-image: url('template/img/comunicacion-linea.jpg');
     background-repeat: no-repeat;
